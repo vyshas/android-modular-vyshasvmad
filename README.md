@@ -298,24 +298,6 @@ Google Developers Codelabs provide a guided, tutorial, hands-on coding experienc
 -   [Android Developer Fundamentals](https://developer.android.com/courses/fundamentals-training/toc-v2)
 -   [Android Developer Codelabs](https://codelabs.developers.google.com/?cat=Android)
 
-## Contributions
-
-All contributions are welcome!
-Please feel free to post questions, recommendations, ideas, bugs by create [new issue](https://github.com/vyshas/kotlin-sample-app/issues/new) following the template or if you want create directly [new pull request](https://github.com/vyshas/kotlin-sample-app/compare).
-
-## Authors
-
-<a href="https://twitter.com/MValceleanu" target="_blank">
-  <img src="https://avatars0.githubusercontent.com/u/18151158?s=400&u=bd6e5ddff1df0d632b93855da0300410854b806e&v=4" width="70" align="left">
-</a>
-
-**Madalin Valceleanu**
-
-[![Linkedin](https://img.shields.io/badge/-linkedin-grey?logo=linkedin)](https://www.linkedin.com/in/vyshas/)
-[![Twitter](https://img.shields.io/badge/-twitter-grey?logo=twitter)](https://twitter.com/MValceleanu)
-[![Medium](https://img.shields.io/badge/-medium-grey?logo=medium)](https://medium.com/@vyshas)
-[![Web](https://img.shields.io/badge/-web-grey?logo=appveyor)](http://vyshas.com/)
-
 ## License
 
 ```license
