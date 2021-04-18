@@ -8,7 +8,7 @@
 
         <variable
             name="viewModel"
-            type="com.vmadalin.dynamicfeatures.characterslist.ui.list.CharactersListViewModel" />
+            type="com.vyshas.dynamicfeatures.characterslist.ui.list.CharactersListViewModel" />
     </data>
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout

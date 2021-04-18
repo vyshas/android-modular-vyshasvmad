@@ -1,7 +1,7 @@
 ## Android Components Architecture in a Modular Word
-[![CircleCI](https://circleci.com/gh/VMadalin/android-modular-architecture/tree/master.svg?style=shield)](https://circleci.com/gh/VMadalin/android-modular-architecture/tree/master)
-[![Codecov](https://codecov.io/gh/VMadalin/android-modular-architecture/coverage.svg)](https://codecov.io/gh/VMadalin/android-modular-architecture)
-[![Codacy](https://api.codacy.com/project/badge/Grade/5970b6648df0465588f9781ae6e3332e)](https://www.codacy.com/manual/VMadalin/kotlin-sample-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VMadalin/kotlin-sample-app&amp;utm_campaign=Badge_Grade)
+[![CircleCI](https://circleci.com/gh/vyshas/android-modular-architecture/tree/master.svg?style=shield)](https://circleci.com/gh/vyshas/android-modular-architecture/tree/master)
+[![Codecov](https://codecov.io/gh/vyshas/android-modular-architecture/coverage.svg)](https://codecov.io/gh/vyshas/android-modular-architecture)
+[![Codacy](https://api.codacy.com/project/badge/Grade/5970b6648df0465588f9781ae6e3332e)](https://www.codacy.com/manual/vyshas/kotlin-sample-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vyshas/kotlin-sample-app&amp;utm_campaign=Badge_Grade)
 [![CodeStyle](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg)](https://ktlint.github.io/)
 [![Kotlin Version](https://img.shields.io/badge/kotlin-1.4.10-blue.svg)](http://kotlinlang.org/)
 [![Gradle](https://img.shields.io/badge/gradle-6.6.1-blue.svg)](https://lv.binarybabel.org/catalog/gradle/latest)
@@ -19,16 +19,16 @@ long application lifecycle management.
 
 ## Table of Contents
 
--   [Mentions](https://github.com/VMadalin/kotlin-sample-app#mentions)
--   [Development](https://github.com/VMadalin/kotlin-sample-app#development)
--   [Design](https://github.com/VMadalin/kotlin-sample-app#design)
--   [Architecture](https://github.com/VMadalin/kotlin-sample-app#architecture)
--   [Documentation](https://github.com/VMadalin/kotlin-sample-app#documentation)
--   [Tech-stack](https://github.com/VMadalin/kotlin-sample-app#tech-stack)
--   [Resources](https://github.com/VMadalin/kotlin-sample-app#resources)
--   [Contributions](https://github.com/VMadalin/kotlin-sample-app#contributions)
--   [Authors](https://github.com/VMadalin/kotlin-sample-app#authors)
--   [License](https://github.com/VMadalin/kotlin-sample-app#license)
+-   [Mentions](https://github.com/vyshas/kotlin-sample-app#mentions)
+-   [Development](https://github.com/vyshas/kotlin-sample-app#development)
+-   [Design](https://github.com/vyshas/kotlin-sample-app#design)
+-   [Architecture](https://github.com/vyshas/kotlin-sample-app#architecture)
+-   [Documentation](https://github.com/vyshas/kotlin-sample-app#documentation)
+-   [Tech-stack](https://github.com/vyshas/kotlin-sample-app#tech-stack)
+-   [Resources](https://github.com/vyshas/kotlin-sample-app#resources)
+-   [Contributions](https://github.com/vyshas/kotlin-sample-app#contributions)
+-   [Authors](https://github.com/vyshas/kotlin-sample-app#authors)
+-   [License](https://github.com/vyshas/kotlin-sample-app#license)
 
 ## Mentions
 
@@ -41,7 +41,7 @@ The project received different mentions/reference from Android Developer Communi
 -   [DroidconKE](https://github.com/droidconKE/droidconKE2020App#referencesresources-1) The official DroidconKE 2020 conference App.
 -   [Github trending](https://github.motakasoft.com/trending/?d=2019-12-11&l=all) See what the GitHub community is most excited about today.
 -   [KotlinBy](https://github.com/KotlinBy/awesome-kotlin#projects-back--1) A curated list of awesome Kotlin related stuff.
--   [Reddit](https://www.reddit.com/r/Kotlin/comments/ew30x4/github_vmadalinkotlinsampleapp_android_sample_app/?utm_source=share&utm_medium=web2x): Discussion about Kotlin, a statically typed programming language for the JVM, Android, JavaScript, and native.
+-   [Reddit](https://www.reddit.com/r/Kotlin/comments/ew30x4/github_vyshaskotlinsampleapp_android_sample_app/?utm_source=share&utm_medium=web2x): Discussion about Kotlin, a statically typed programming language for the JVM, Android, JavaScript, and native.
 
 ## Development
 
@@ -65,10 +65,10 @@ To maintain the style and quality of the code, are used the bellow static analys
 
 | Tools                                                   | Config file                                                                       | Check command             | Fix command               |
 |---------------------------------------------------------|----------------------------------------------------------------------------------:|---------------------------|---------------------------|
-| [detekt](https://github.com/arturbosch/detekt)          | [/.detekt](https://github.com/VMadalin/kotlin-sample-app/tree/master/.detekt)     | `./gradlew detekt`        | -                         |
+| [detekt](https://github.com/arturbosch/detekt)          | [/.detekt](https://github.com/vyshas/kotlin-sample-app/tree/master/.detekt)     | `./gradlew detekt`        | -                         |
 | [ktlint](https://github.com/pinterest/ktlint)           | -                                                                                 | `./gradlew ktlint`        | `./gradlew ktlintFormat`  |
-| [spotless](https://github.com/diffplug/spotless)        | [/.spotless](https://github.com/VMadalin/kotlin-sample-app/tree/master/.spotless) | `./gradlew spotlessCheck` | `./gradlew spotlessApply` |
-| [lint](https://developer.android.com/studio/write/lint) | [/.lint](https://github.com/VMadalin/kotlin-sample-app/tree/master/.lint)         | `./gradlew lint`          | -                         |
+| [spotless](https://github.com/diffplug/spotless)        | [/.spotless](https://github.com/vyshas/kotlin-sample-app/tree/master/.spotless) | `./gradlew spotlessCheck` | `./gradlew spotlessApply` |
+| [lint](https://developer.android.com/studio/write/lint) | [/.lint](https://github.com/vyshas/kotlin-sample-app/tree/master/.lint)         | `./gradlew lint`          | -                         |
 
 All these tools are integrated in [pre-commit git hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks), in order
 ensure that all static analysis and tests passes before you can commit your changes. To skip them for specific commit add this option at your git command:
@@ -77,7 +77,7 @@ ensure that all static analysis and tests passes before you can commit your chan
 git commit --no-verify
 ```
 
-The pre-commit git hooks have exactly the same checks as [CircleCI](https://circleci.com/) and are defined in this [script](https://github.com/VMadalin/kotlin-sample-app/blob/master/scripts/git-hooks/pre-commit.sh). This step ensures that all commits comply with the established rules. However the continuous integration will ultimately be validated that the changes are correct.
+The pre-commit git hooks have exactly the same checks as [CircleCI](https://circleci.com/) and are defined in this [script](https://github.com/vyshas/kotlin-sample-app/blob/master/scripts/git-hooks/pre-commit.sh). This step ensures that all commits comply with the established rules. However the continuous integration will ultimately be validated that the changes are correct.
 
 ## Design
 
@@ -195,7 +195,7 @@ But the idea is to have different environments target for Development and QA res
 
 The documentation is generated following [KDoc](https://kotlinlang.org/docs/reference/kotlin-doc.html) language (the equivalent of Java's [JavaDoc](https://en.wikipedia.org/wiki/Javadoc)) via documentation engine for Kotlin [Dokka](https://github.com/Kotlin/dokka).
 
-To consult it check this [link](https://vmadalin.github.io/android-modular-architecture/) or open the project `/docs` directory.
+To consult it check this [link](https://vyshas.github.io/android-modular-architecture/) or open the project `/docs` directory.
 
 ## Tech-stack
 
@@ -221,7 +221,7 @@ This project takes advantage of many popular libraries, plugins and tools of the
 -   [Moshi](https://github.com/square/moshi) - makes it easy to parse JSON into Kotlin objects.
 -   [Timber](https://github.com/JakeWharton/timber) - a logger with a small, extensible API which provides utility on top of Android's normal Log class.
 -   [Stetho](http://facebook.github.io/stetho/) - debug bridge for applications via Chrome Developer Tools.
--   [and more...](https://github.com/VMadalin/kotlin-sample-app/blob/master/buildSrc/src/main/kotlin/dependencies/Dependencies.kt)
+-   [and more...](https://github.com/vyshas/kotlin-sample-app/blob/master/buildSrc/src/main/kotlin/dependencies/Dependencies.kt)
 
 ### Test dependencies
 
@@ -231,7 +231,7 @@ This project takes advantage of many popular libraries, plugins and tools of the
 -   [JUnit](https://github.com/junit-team/junit4) - a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
 -   [Mockk](https://github.com/mockk/mockk) - provides DSL to mock behavior. Built from zero to fit Kotlin language.
 -   [AndroidX](https://github.com/android/android-test) - the androidx test library provides an extensive framework for testing Android apps.
--   [and more...](https://github.com/VMadalin/kotlin-sample-app/blob/master/buildSrc/src/main/kotlin/dependencies/TestDependencies.kt)
+-   [and more...](https://github.com/vyshas/kotlin-sample-app/blob/master/buildSrc/src/main/kotlin/dependencies/TestDependencies.kt)
 
 ### Plugins
 
@@ -241,7 +241,7 @@ This project takes advantage of many popular libraries, plugins and tools of the
 -   [Versions](https://github.com/ben-manes/gradle-versions-plugin) - make easy to determine which dependencies have updates.
 -   [SafeArgs](https://developer.android.com/guide/navigation/navigation-pass-data#Safe-args) - generates simple object and builder classes for type-safe navigation and access to any associated arguments.
 -   [Jacoco](https://github.com/jacoco/jacoco) - code coverage library
--   [and more...](https://github.com/VMadalin/kotlin-sample-app/blob/master/buildSrc/build-dependencies.gradle.kts)
+-   [and more...](https://github.com/vyshas/kotlin-sample-app/blob/master/buildSrc/build-dependencies.gradle.kts)
 
 ## Resources
 
@@ -301,7 +301,7 @@ Google Developers Codelabs provide a guided, tutorial, hands-on coding experienc
 ## Contributions
 
 All contributions are welcome!
-Please feel free to post questions, recommendations, ideas, bugs by create [new issue](https://github.com/VMadalin/kotlin-sample-app/issues/new) following the template or if you want create directly [new pull request](https://github.com/VMadalin/kotlin-sample-app/compare).
+Please feel free to post questions, recommendations, ideas, bugs by create [new issue](https://github.com/vyshas/kotlin-sample-app/issues/new) following the template or if you want create directly [new pull request](https://github.com/vyshas/kotlin-sample-app/compare).
 
 ## Authors
 
@@ -311,15 +311,15 @@ Please feel free to post questions, recommendations, ideas, bugs by create [new 
 
 **Madalin Valceleanu**
 
-[![Linkedin](https://img.shields.io/badge/-linkedin-grey?logo=linkedin)](https://www.linkedin.com/in/vmadalin/)
+[![Linkedin](https://img.shields.io/badge/-linkedin-grey?logo=linkedin)](https://www.linkedin.com/in/vyshas/)
 [![Twitter](https://img.shields.io/badge/-twitter-grey?logo=twitter)](https://twitter.com/MValceleanu)
-[![Medium](https://img.shields.io/badge/-medium-grey?logo=medium)](https://medium.com/@vmadalin)
-[![Web](https://img.shields.io/badge/-web-grey?logo=appveyor)](http://vmadalin.com/)
+[![Medium](https://img.shields.io/badge/-medium-grey?logo=medium)](https://medium.com/@vyshas)
+[![Web](https://img.shields.io/badge/-web-grey?logo=appveyor)](http://vyshas.com/)
 
 ## License
 
 ```license
-Copyright 2019-2020 vmadalin.com
+Copyright 2019-2020 vyshas.com
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
