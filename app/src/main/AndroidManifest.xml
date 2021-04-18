@@ -2,14 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.vmadalin.android">
+    package="com.vyshas.android">
 
     <dist:module dist:instant="true" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".SampleApp"
+        android:name="com.vyshas.android.SampleApp"
         android:fullBackupContent="true"
         android:allowBackup="true"
         android:extractNativeLibs="false"
@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="m">
-        <activity android:name=".SampleMainActivity">
+        <activity android:name="com.vyshas.android.SampleMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

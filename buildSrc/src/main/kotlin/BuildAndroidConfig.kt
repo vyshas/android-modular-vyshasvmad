@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 vmadalin.com
+ * Copyright 2020 vyshas
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
  * Configuration of android build
  */
 object BuildAndroidConfig {
-    const val APPLICATION_ID = "com.vmadalin.android"
+    const val APPLICATION_ID = "com.vyshas.modular01.android"
 
     const val BUILD_TOOLS_VERSION = "29.0.2"
     const val COMPILE_SDK_VERSION = 29

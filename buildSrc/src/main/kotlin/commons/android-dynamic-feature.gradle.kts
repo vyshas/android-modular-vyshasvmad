@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 vmadalin.com
+ * Copyright 2021 vyshas
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,7 +41,7 @@ plugins {
 
 allOpen {
     // allows mocking for classes w/o directly opening them for release builds
-    annotation("com.vmadalin.core.annotations.OpenClass")
+    annotation("com.vyshas.core.annotations.OpenClass")
 }
 
 android {
