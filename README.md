@@ -27,19 +27,6 @@ long application lifecycle management.
 -   [Authors](https://github.com/vyshas/kotlin-sample-app#authors)
 -   [License](https://github.com/vyshas/kotlin-sample-app#license)
 
-## Mentions
-
-The project received different mentions/reference from Android Developer Community:
-
--   [Android Weekly](https://androidweekly.net/issues/issue-407) Newsletter that helps you to stay cutting-edge with your Android Development.
--   [AndroidSweets](https://androidsweets.ongoodbits.com/2019/12/13/browsing-through-the-android-open-source-project-was-never-easier) Fresh news from Droid zone.
--   [Android Awesome](https://github.com/JStumpp/awesome-android#code-examples) A curated list of awesome Android libraries and resources.
--   [Droidcon](https://www.droidcon.com/news-detail?content-id=/repository/collaboration/Groups/spaces/droidcon_hq/Documents/public/news/android-news/Android%20Components%20Architecture%20in%20a%20Modular%20Word) Blog posts from leading authorities and video archive from droidcons around the world.
--   [DroidconKE](https://github.com/droidconKE/droidconKE2020App#referencesresources-1) The official DroidconKE 2020 conference App.
--   [Github trending](https://github.motakasoft.com/trending/?d=2019-12-11&l=all) See what the GitHub community is most excited about today.
--   [KotlinBy](https://github.com/KotlinBy/awesome-kotlin#projects-back--1) A curated list of awesome Kotlin related stuff.
--   [Reddit](https://www.reddit.com/r/Kotlin/comments/ew30x4/github_vyshaskotlinsampleapp_android_sample_app/?utm_source=share&utm_medium=web2x): Discussion about Kotlin, a statically typed programming language for the JVM, Android, JavaScript, and native.
-
 ## Development
 
 ### Environment setup
