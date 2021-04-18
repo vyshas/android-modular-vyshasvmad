@@ -1,6 +1,6 @@
 ## Android Components Architecture in a Modular Word
 [![Codecov](https://codecov.io/gh/vyshas/android-modular-architecture/coverage.svg)](https://codecov.io/gh/vyshas/android-modular-architecture)
-[![Codacy](https://api.codacy.com/project/badge/Grade/5970b6648df0465588f9781ae6e3332e)](https://www.codacy.com/manual/vyshas/kotlin-sample-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vyshas/kotlin-sample-app&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/dd2a1623da9f402b9b073e08303d952a)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vyshas/android-modular-vyshasvmad&amp;utm_campaign=Badge_Grade)
 [![CodeStyle](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg)](https://ktlint.github.io/)
 [![Kotlin Version](https://img.shields.io/badge/kotlin-1.4.10-blue.svg)](http://kotlinlang.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg)](http://www.apache.org/licenses/LICENSE-2.0)
