@@ -26,8 +26,8 @@ jobs:
       uses: juliangruber/read-file-action@v1
       with:
         path: ./local.properties
-        - name: Echo local.properties
-          run: echo ${{ steps.package.outputs.content }}
+    - name: Echo local.properties
+      run: echo ${{ steps.package.outputs.content }}
     - name: set up JDK 11
       uses: actions/setup-java@v2
       with:
