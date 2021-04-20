@@ -13,6 +13,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Access MARVEL_PUBLIC
+      env:
+        MARVEL_PUBLIC: ${{ secrets.MARVEL_PUBLIC }}
+      run: echo marvel.key.public=\"MARVEL_PUBLIC\" > ./local.properties
+    - name: Access MARVEL_PRIVATE
+        env:
+          MARVEL_PRIVATE: ${{ secrets.MARVEL_PRIVATE }}
+        run: echo marvel.key.private=\"MARVEL_PRIVATE\" > ./local.properties
     - name: set up JDK 11
       uses: actions/setup-java@v2
       with:
