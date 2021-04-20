@@ -16,11 +16,11 @@ jobs:
     - name: Access MARVEL_PUBLIC
       env:
         MARVEL_PUBLIC: ${{ secrets.MARVEL_PUBLIC }}
-      run: echo MARVEL_API_KEY_PUBLIC=\"MARVEL_PUBLIC\" > ./local.properties
+      run: echo MARVEL_API_KEY_PUBLIC=\"$MARVEL_PUBLIC\" > ./local.properties
     - name: Access MARVEL_PRIVATE
       env:
         MARVEL_PRIVATE: ${{ secrets.MARVEL_PRIVATE }}
-      run: echo MARVEL_API_KEY_PRIVATE=\"MARVEL_PRIVATE\" > ./local.properties
+      run: echo MARVEL_API_KEY_PRIVATE=\"$MARVEL_PRIVATE\" > ./local.properties
     - name: Read local.properties
       id: local
       uses: juliangruber/read-file-action@v1
