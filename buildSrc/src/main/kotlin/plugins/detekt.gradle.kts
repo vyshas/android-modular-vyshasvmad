@@ -23,7 +23,7 @@ apply<DetektPlugin>()
 
 configure<DetektExtension> {
     input = project.files("src/main/kotlin")
-    config = files("$rootDir/.detekt/config.yml")
+    config = files("$rootDir/detekt.yml")
     reports {
         xml {
             enabled = true
