@@ -27,7 +27,7 @@ object BuildDependenciesVersions {
     const val NAVIGATION = "2.3.0"
     const val LIFECYCLE = "2.2.0"
     const val CORE_KTX = "1.3.2"
-    const val FRAGMENT_KTX = "1.2.5"
+    const val FRAGMENT_KTX = "1.3.2"
     const val CONSTRAIN_LAYOUT = "2.0.2"
     const val SWIPE_REFRESH_LAYOUT = "1.1.0"
     const val PAGING = "2.1.2"
