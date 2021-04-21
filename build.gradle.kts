@@ -19,11 +19,25 @@ import extensions.applyDefault
 plugins.apply(BuildPlugins.GIT_HOOKS)
 plugins.apply(BuildPlugins.UPDATE_DEPENDENCIES)
 
+plugins {
+    id("org.sonarqube").version("3.1.1")
+}
+
 allprojects {
     repositories.applyDefault()
-
     plugins.apply(BuildPlugins.DETEKT)
     plugins.apply(BuildPlugins.DOKKA)
     plugins.apply(BuildPlugins.KTLINT)
     plugins.apply(BuildPlugins.SPOTLESS)
+
+    apply(plugin = "org.sonarqube")
+    sonarqube {
+        properties {
+            property("sonar.projectKey", "vyshas_android-modular-vyshasvmad")
+            property("sonar.organization", "vyshas")
+            property("sonar.host.url", "https://sonarcloud.io")
+            property("sonar.lang.patterns.kotlin", "**/*.kt,**/*.json,**/*.java")
+            property("detekt.sonar.kotlin.config.path", "${rootProject.projectDir}/detekt.yml")
+        }
+    }
 }
